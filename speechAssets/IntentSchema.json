@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "User",
+          "type": "USER"
+        }
+      ],
+      "intent": "LoginIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Module",
+          "type": "MODULE"
+        }
+      ],
+      "intent": "OpenModuleIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Module",
+          "type": "MODULE"
+        }
+      ],
+      "intent": "CloseModuleIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "LogLevel",
+          "type": "LOGLEVEL"
+        }
+      ],
+      "intent": "FilterLogsIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Country",
+          "type": "COUNTRY"
+        }
+      ],
+      "intent": "FilterCustomersIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Id",
+          "type": "CUSTOMER_ID"
+        }
+      ],
+      "intent": "ShowCustomerIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

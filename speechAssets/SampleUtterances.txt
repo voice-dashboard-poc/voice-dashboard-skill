@@ -1,0 +1,25 @@
+LoginIntent {User}
+LoginIntent I'm a {User}
+LoginIntent I'm the {User}
+LoginIntent I'm the project {User}
+LoginIntent I'm a project {User}
+
+OpenModuleIntent open {Module} module
+OpenModuleIntent open {Module}
+OpenModuleIntent {Module} module
+CloseModuleIntent close {Module} module
+CloseModuleIntent close {Module}
+CloseModuleIntent close current module
+CloseModuleIntent close module
+FilterLogsIntent show me {LogLevel} logs
+FilterLogsIntent show me {LogLevel}
+FilterLogsIntent show {LogLevel} logs
+FilterLogsIntent show {LogLevel}
+
+FilterCustomersIntent show me only {Country} users
+FilterCustomersIntent show me {Country} users
+FilterCustomersIntent show me only {Country} customers
+FilterCustomersIntent show me {Country} customers
+
+ShowCustomerIntent show me customer {Id}
+ShowCustomerIntent show me user {Id}

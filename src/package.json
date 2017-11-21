@@ -1,0 +1,16 @@
+{
+  "name": "voice-dashboard-alexa-skill",
+  "version": "0.0.1",
+  "description": "Alexa skill to control the dashboard",
+  "main": "index.js",
+  "author": "Williams Aguilera",
+  "license": "Copyright",
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+}
+

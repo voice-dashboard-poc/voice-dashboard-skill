@@ -1,0 +1,5 @@
+MODULE 	logs | customers | budget
+LOGLEVEL 	error | success | warning | all
+USER 	developer | boss
+COUNTRY 	American | Spanish | German | all
+CUSTOMER_ID 	697 | 722 | 325 | 776 | 320 | 289 | 698 | 173 | 491 | 519
